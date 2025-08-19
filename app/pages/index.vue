@@ -33,8 +33,16 @@
 
     <section>
         <h2 class="text-3xl font-bold mt-8">Latest Blog Posts</h2>
+
+        <div class="grid md:grid-cols-3 mt-8 gap-10">
+            <Blog :blogs="blogs" />
+        </div>
     </section>
 </template>
 
 <script setup lang="ts">
+
+const { data: blogs } = await useAsyncData('latest-blogs', () => {
+    return queryCollection('blogs').limit(3).all()
+})
 </script>

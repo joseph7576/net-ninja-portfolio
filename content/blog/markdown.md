@@ -1,3 +1,12 @@
+---
+title: Cheat Sheet
+description: HEHEHEHEHEHHEHEHEHEEH
+cover: dummy.png
+tags:
+    - blog
+    - learn
+---
+
 Here's a comprehensive Markdown sample showcasing most Markdown features with examples:
 
 
@@ -56,13 +65,13 @@ holy jesus
 
 Inline `code` example.
 
-```python
+```py
 def hello_world():
     print("Hello, World!")
     return True
 ```
 
-```javascript
+```js
 console.log("JavaScript code block");
 ```
 

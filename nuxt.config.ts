@@ -9,8 +9,8 @@ export default defineNuxtConfig({
     build: {
       markdown: {
         highlight: {
-          theme: 'github-light',
-        }
+          theme: 'nord',
+        },
       }
     }
   }
